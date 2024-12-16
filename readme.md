@@ -1,76 +1,27 @@
-<div align='center'>
+# vscode-pokemon-jpn
 
-# VS Code Pokémon
+vscode-pokemonのポケモン名を日本語に変更
 
-![icon](https://github.com/jakobhoeg/vscode-pokemon/raw/main/icon.png)
-</div>    
+# 概要
 
-<p align="center">
-    Puts cute Pokémon in your code editor to boost productivity ✨
-    <br>
-    <br>
-    <a href="https://github.com/jakobhoeg/vscode-pokemon/issues/new?assignees=&labels=feature&template=bug_report.md&title=">Report a Bug</a>
-    ·
-    <a href="https://github.com/jakobhoeg/vscode-pokemon/issues/new?assignees=&labels=feature&template=feature_request.md&title=">Request feature</a>
-</p>
+このリポジトリでは、ポケモンの英語名を日本語名に変換したデータファイルを提供しています。
+元のデータはCC0 1.0 Universalライセンスの下で公開されており、この変更版も同じライセンスの下で配布されます。
 
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/jakobhoeg.vscode-pokemon)
-![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/jakobhoeg.vscode-pokemon)
-![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/jakobhoeg.vscode-pokemon)
+# 特徴
 
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jakobhoeg/vscode-pokemon/raw/main/vscode-pokemon.gif">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/jakobhoeg/vscode-pokemon/raw/main/vscode-pokemon-light.gif">
-  <img alt="Shows gif in dark or light mode" src="https://github.com/jakobhoeg/vscode-pokemon/raw/main/vscode-pokemon-light.gif">
-</picture>
-</div>
+第1世代（No.1: フシギダネ）から第2世代（No.255: ホウオウ）まで日本語名に対応。
 
-## Installation
+# 使用方法
 
-Install this extension from the [VS Code marketplace](https://marketplace.visualstudio.com/items?itemName=jakobhoeg.vscode-pokemon).
+1. VSCodeでオリジナルの拡張機能`vscode-pokemon`をインストールします。
+2. vscode-pokemonのインストール先を確認します。
+`C:/Users/[UserName]/.vscode/extensions/jakobhoeg.vscode-pokemon-2.0.0`
+3. このリポジトリからpokemon-data.jsファイルをダウンロードし、ローカルファイルを上書きします。
+`C:/Users/[UserName]/.vscode/extensions/jakobhoeg.vscode-pokemon-2.0.0/out/common/pokemon-data.js`
+4. VSCodeで拡張機能を再起動します。`無効にする→拡張機能の再起動→有効にする`
+5.
 
-![Default view](https://github.com/jakobhoeg/vscode-pokemon/raw/main/install.png)
+# ライセンス
 
-OR
-
-With VS Code open, search for `vscode-pokemon` in the extension panel (`Ctrl+Shift+X` on Windows/Linux or `Cmd(⌘)+Shift+X` on MacOS) and click install.
-
-OR
-
-With VS Code open, launch VS Code Quick Open (`Ctrl+P` on Windows/Linux or `Cmd(⌘)+P` on MacOS), paste the following command, and press enter.
-
-`ext install jakobhoeg.vscode-pokemon`
-
-## Using VS Code Pokémon
-
-After installing, open the command palette with `Ctrl+Shift+P` on Windows/Linux or `Cmd(⌘)+Shift+P` on MacOS.  
-
-Run the "Start Pokemon coding session" command (`vscode-pokemon.start`) to see a Bulbasaur in VS Code:
-
-![Default view](https://github.com/jakobhoeg/vscode-pokemon/raw/main/usage.png)
-
-Enjoy interacting with your favourite Pokémon!
-
-## Changing settings
-
-Open the setting panel with Ctrl+, on Windows/Linux or Cmd(⌘)+, on MacOS. In the search bar, enter “vscode-pokemon" to see all available options.
-
-Set the size and position of the extension.
-
-## Upcoming features
-
-Extracting and creating .gif files involves quite a bit of tedious manual work, but I’ll aim to add Gen 2 and Gen 3 sprites very soon!
-
-## Credits
-
-### Sprite Sources
-- Pokemon Sprites: © The Pokémon Company / Nintendo / Game Freak
-- The sprites are used for non-commercial, fan project purposes only
-- Original sprite artwork belongs to the respective copyright holders 
-
-### Acknowledgments
-- All sprites are property of their original creators
-- This repository is a fan project and is not affiliated with Nintendo, The Pokémon Company, or Game Freak
-
-This repository is inspired by and based on [vscode-pets](https://github.com/tonybaloney/vscode-pets) by [tonybaloney](https://github.com/tonybaloney).
+元データはCC0 1.0 Universalの下で公開されています。
+本リポジトリ内の変更も同じライセンスで公開します。
